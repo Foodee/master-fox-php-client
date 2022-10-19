@@ -1,0 +1,24 @@
+{
+    "name": "foodee/master-fox-php-client",
+    "description": "Php client library for Foodee's master-fox API.",
+    "type": "library",
+    "require": {
+        "swisnl/json-api-client": "^2.2",
+        "guzzlehttp/guzzle": "^7.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Foodee\\MasterFoxPhpClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Joe Gaudet",
+            "email": "joe@joegaudet.com"
+        }
+    ],
+    "scripts": {
+        "test": ["php src/test.php"]
+    }
+}
